@@ -1,0 +1,32 @@
+{
+  "name": "wines-api",
+  "version": "1.0.0",
+  "description": "Uma api que fornece informação sobre vinhos e suas harmonizações.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npx tsc --build tsconfig.json",
+    "start": "npm run startDB && npm run build && node src/index.js",
+    "database": "npm run build && npm run startDB",
+    "test": "npm run build && jest ./dist",
+    "startDB": "json-server --watch src/database/database.json",
+    "dev": "tsx watch src/index.ts"
+  },
+  "types": "main.d.ts",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "tsc": "^2.0.4",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}

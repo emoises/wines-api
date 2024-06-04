@@ -1,0 +1,61 @@
+{
+    "wines": [
+        { 
+            "id": "1",
+            "name": "merlot",
+            "harmonizationId": []
+        },
+        { 
+            "id": "2",
+            "name": "malbec",
+            "harmonizationId": []
+        },
+        { 
+            "id": "3",
+            "name": "cabernet sauvignon",
+            "harmonizationId": []
+        },
+        { 
+            "id": "4",
+            "name": "pinot noir",
+            "harmonizationId": []
+        },
+        { 
+            "id": "5",
+            "name": "chardonnay",
+            "harmonizationId": []
+        },
+        { 
+            "id": "6",
+            "name": "gewurztraminer",
+            "harmonizationId": []
+        },
+        { 
+            "id": "7",
+            "name": "sémillon",
+            "harmonizationId": []
+        },
+        { 
+            "id": "8",
+            "name": "syrah",
+            "harmonizationId": []
+        }
+    ],
+    "harmonizations": [
+        {
+            "id": "1",
+            "name": "bife de chorizo",
+            "winesId": [1, 4, 7]
+        },
+        {
+            "id": "2",
+            "name": "bife de chorizo",
+            "winesId": [2, 3, 7]
+        },
+        {
+            "id": "3",
+            "name": "bife de chorizo",
+            "winesId": [5, 6]
+        }
+    ]
+}
