@@ -1,6 +1,4 @@
-import express, { Request, Response } from 'express'
-import { GetWineResponse, WineResponse } from '../main';
-import axios, { AxiosResponse } from 'axios';
+import express from 'express'
 import { routes } from './core/routes/router';
 
 const PORT = '3500';
